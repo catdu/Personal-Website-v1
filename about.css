@@ -3,7 +3,7 @@ a {
 }
 
 .grey-bg {
-	background: #fff;
+	background: #f1f3f5;
 }
 
 .menu-container {
@@ -24,6 +24,7 @@ a {
 	padding-bottom: 0.25em;
 	cursor: pointer;
 	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
+	color: #353537;
 }
 
 #menu-options {
@@ -33,11 +34,12 @@ a {
 @media screen and (max-width: 575px) {
 	#menu-options ul li a {
 		color: #353537;
-		padding-left: 0.5em;
+		/*padding-left: 0.5em;*/
 	}
 
 	#dropdown-menu {
-		padding-left: 0.5em;
+		/*padding-left: 0.5em;*/
+		color: #353537;
 	}
 }
 
@@ -68,8 +70,25 @@ a {
 
 #headshot-img {
 	box-shadow: 10px 10px 0px 0px #353537;
+	max-width: 18em;
 }
 
+.padding-leftright-6 {
+	padding: 0 7em;
+
+
+}
+
+@media screen and (max-width: 575px) {
+	.padding-leftright-6 {
+		padding: 2em 1em;
+	}
+
+	#headshot-img {
+		box-shadow: none;
+	}
+
+}
 
 #blurb-title {
 	font-size: 2em;
@@ -79,6 +98,12 @@ a {
 	letter-spacing: 1.5pt;
 }
 
+@media screen and (max-width: 575px) {
+	#blurb-title {
+		font-size: 1.6em;
+	}
+
+}
 #about-blurb {
 	text-align: left;
 	font-family: 'Nunito Sans';
@@ -112,6 +137,12 @@ a {
     display: flex;
     justify-content: space-between;
     position: fixed;
+}
+
+@media screen and (max-width: 575px) {
+	#back-container {
+		background-color: #fff;
+	}
 }
 
 #portfolio-link {
@@ -156,7 +187,6 @@ a {
 	padding: 0;
 }
 
-.padding-leftright-6 {
-	padding: 0 6em;
+.row {
+	margin: 0;
 }
-
