@@ -67,24 +67,9 @@ a {
 }
 
 #headshot-img {
-	width: 14em;
-	left: 10em;
-	bottom: 10em;
-	/*margin-left: 7em;
-	float: left;*/
-	position: absolute;
 	box-shadow: 10px 10px 0px 0px #353537;
 }
 
-@media screen and (max-width: 575px) {
-	#headshot-img {
-		width: 17em;
-	}
-
-	#blurb-title, #about-blurb {
-		width: 100%;
-	}
-}
 
 #blurb-title {
 	font-size: 2em;
@@ -97,10 +82,6 @@ a {
 #about-blurb {
 	text-align: left;
 	font-family: 'Nunito Sans';
-	/*'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';*/
-	width: 50%;
-	right: 10em;
-	position: absolute;
 	font-weight: 400;
 }
 
@@ -130,6 +111,7 @@ a {
 	bottom: 1px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
 }
 
 #portfolio-link {
@@ -172,5 +154,9 @@ a {
 
 .banner .banner-body {
 	padding: 0;
+}
+
+.padding-leftright-6 {
+	padding: 0 6em;
 }
 
