@@ -55,7 +55,6 @@ html {
 
 .black-bg {
 	background: linear-gradient(to bottom right, #424244, #353537);
-/*	background: #353537; */
     height: 85vh;
     margin: 1em;
 }
