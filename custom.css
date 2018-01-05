@@ -69,8 +69,6 @@ html {
 
 .white-strip {
 	width: 100%;
-/*	background: #fff;*/
-/*	padding: 1.5em 0;*/
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
@@ -133,6 +131,7 @@ html {
 	padding-bottom: 0.25em;
 	cursor: pointer;
 	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
+	color: #353537;
 }
 
 #menu-options {
@@ -142,11 +141,6 @@ html {
 @media screen and (max-width: 767px) {
 	#menu-options ul li a {
 		color: white;
-		padding-left: 0.5em;
-	}
-
-	#dropdown-menu {
-		padding-left: 0.5em;
 	}
 }
 
