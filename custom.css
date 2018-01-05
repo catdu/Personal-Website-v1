@@ -1,0 +1,151 @@
+a {
+	color: #353537;
+}
+
+html {
+    /*If you had a black or close to black background*/
+    background-color: #E6E6ED;
+}
+
+#intro-line {
+	padding-left: 0.60em;
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
+	font-size: 1em;
+	font-weight: 300;
+	color: #353537;
+}
+
+#my-name {
+	font-family: 'Nunito Sans', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
+	font-size: 5em;
+	text-transform: uppercase;
+	color: #353537;
+	margin-top: 0.1em;
+	letter-spacing: 2.5pt;
+}
+
+
+@media screen and (max-width: 767px) {
+	#intro-line {
+		color: #E6E6ED;
+	}
+	#my-name {
+		font-size: 3.8em;
+		color: #E6E6ED;
+		letter-spacing: normal;
+	}
+
+	a {
+		color: #E6E6ED;
+	}
+}
+
+#sub-tag {
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
+	font-size: 1.2em;
+	font-weight: 300;
+    color: #a7a7a7;
+    text-align: left;
+    padding-left: 0.7em;
+}
+
+.grey-bg {
+	background: #E6E6ED;
+}
+
+.black-bg {
+	background: linear-gradient(to bottom right, #424244, #353537);
+/*	background: #353537; */
+    height: 85vh;
+    margin: 1em;
+}
+
+@media screen and (max-width: 767px) {
+	.black-bg {
+		height: calc(100vh - 4em);
+		margin: 2em;
+	}
+}
+
+.white-strip {
+	width: 100%;
+/*	background: #fff;*/
+/*	padding: 1.5em 0;*/
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+    margin-left: 2em;
+}
+
+.z-1 {
+	z-index: 1;
+	position: absolute;
+}
+
+.z-2 {
+	z-index: 2;
+	position: absolute;
+}
+
+.z-3 {
+	z-index: 3;
+	position: absolute;
+}
+
+#portfolio-link {
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0 1em 0 0;
+	color: #353537;
+	cursor: e-resize;
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
+}
+
+#p-arrow {
+	font-size: 1.75em;
+	margin-top: 4px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+#portfolio-container {
+	bottom: 1px;
+}
+
+.menu-container {
+	top: 1em;
+	left: 2em;
+	font-weight: 300;
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
+	width: auto;
+}
+
+.menu-container ul li {
+	list-style-type: none;
+	font-size: 0.9em;
+}
+
+#dropdown-menu {
+	margin-top: 0;
+	padding-bottom: 0.25em;
+	cursor: pointer;
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
+}
+
+#menu-options {
+	display: none;
+}
+
+@media screen and (max-width: 767px) {
+	#menu-options ul li a {
+		color: white;
+		padding-left: 0.5em;
+	}
+
+	#dropdown-menu {
+		padding-left: 0.5em;
+	}
+}

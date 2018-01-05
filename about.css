@@ -1,0 +1,168 @@
+a{
+	color: #353537
+}
+
+.grey-bg {
+	background: #fff;
+}
+
+.menu-container {
+	top: 1em;
+	left: 2em;
+	font-weight: 300;
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
+	width: auto;
+}
+
+.menu-container ul li {
+	list-style-type: none;
+	font-size: 0.9em;
+}
+
+#dropdown-menu {
+	margin-top: 0;
+	padding-bottom: 0.25em;
+	cursor: pointer;
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
+}
+
+#menu-options {
+	display: none;
+}
+
+@media screen and (max-width: 575px) {
+	#menu-options ul li a {
+		color: #353537;
+		padding-left: 0.5em;
+	}
+
+	#dropdown-menu {
+		padding-left: 0.5em;
+	}
+}
+
+.z-1 {
+	z-index: 1;
+	position: absolute;
+}
+
+.z-2 {
+	z-index: 2;
+	position: absolute;
+}
+
+.z-3 {
+	z-index: 3;
+	position: absolute;
+}
+
+#page-title{
+	top: 1em;
+	right: 2em;
+	position: absolute;
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
+	cursor: default;
+	margin: 0;
+	color: #353537;
+}
+
+#headshot-img {
+/*	width: 17%;*/
+	left: 10em;
+	bottom: 10em;
+	margin-left: 7em;
+	float: left;
+	position: absolute;
+	box-shadow: 10px 10px 0px 0px #353537;
+}
+
+@media screen and (max-width: 575px) {
+	#headshot-img {
+		width: 17em;
+	}
+
+	#blurb-title, #about-blurb {
+		width: 100%;
+	}
+}
+
+#blurb-title {
+	font-size: 2em;
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
+	text-transform: uppercase;
+	color: #353537;
+	letter-spacing: 1.5pt;
+}
+
+#about-blurb {
+	text-align: left;
+	font-family: 'Nunito Sans';
+	/*'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';*/
+	width: 50%;
+	right: 10em;
+	position: absolute;
+	font-weight: 400;
+}
+
+#psst {
+	font-size:0.7em;
+}
+
+#back-link {
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 0 0 1em;
+	color: #353537;
+	cursor: pointer;
+}
+
+#b-arrow {
+	font-size: 1.75em;
+	margin-top: 4px;
+	margin-right: 5px;
+	cursor: w-resize;
+}
+
+#back-container {
+	bottom: 1px;
+}
+
+#portfolio-link {
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0 1em 0 0;
+	color: #353537;
+	cursor: e-resize;
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
+}
+
+#p-arrow {
+	font-size: 1.75em;
+	margin-top: 4px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+#portfolio-container {
+	bottom: 1px;
+}
+
+#social-intro {
+	font-size:0.8em;
+}
+
+.icon-social-linkedin {
+	text-decoration: none;
+}
+
+.icon-social-facebook {
+	text-decoration: none;
+}
+
+.icon-social-instagram {
+	text-decoration: none;
+}
