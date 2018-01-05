@@ -1,5 +1,5 @@
-a {
-	color: #353537;
+a{
+	color: #353537
 }
 
 .grey-bg {
@@ -24,6 +24,7 @@ a {
 	padding-bottom: 0.25em;
 	cursor: pointer;
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
+    color: #353537;
 }
 
 #menu-options {
@@ -33,11 +34,6 @@ a {
 @media screen and (max-width: 575px) {
 	#menu-options ul li a {
 		color: #353537;
-		padding-left: 0.5em;
-	}
-
-	#dropdown-menu {
-		padding-left: 0.5em;
 	}
 }
 
