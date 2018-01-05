@@ -1,5 +1,5 @@
-a{
-	color: #353537
+a {
+	color: #353537;
 }
 
 .grey-bg {
@@ -67,11 +67,11 @@ a{
 }
 
 #headshot-img {
-	width: 10em;
+	width: 14em;
 	left: 10em;
 	bottom: 10em;
-	margin-left: 7em;
-	float: left;
+	/*margin-left: 7em;
+	float: left;*/
 	position: absolute;
 	box-shadow: 10px 10px 0px 0px #353537;
 }
@@ -116,6 +116,7 @@ a{
 	padding: 0 0 0 1em;
 	color: #353537;
 	cursor: pointer;
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
 }
 
 #b-arrow {
@@ -127,6 +128,8 @@ a{
 
 #back-container {
 	bottom: 1px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #portfolio-link {
@@ -166,3 +169,8 @@ a{
 .icon-social-instagram {
 	text-decoration: none;
 }
+
+.banner .banner-body {
+	padding: 0;
+}
+
