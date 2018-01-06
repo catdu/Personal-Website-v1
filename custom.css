@@ -97,7 +97,6 @@ html {
 	align-items: center;
 	padding: 0 1em 0 0;
 	color: #353537;
-	cursor: e-resize;
 	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
 }
 
@@ -105,7 +104,6 @@ html {
 	font-size: 1.75em;
 	margin-top: 4px;
 	margin-left: 5px;
-	cursor: pointer;
 }
 
 #portfolio-container {
