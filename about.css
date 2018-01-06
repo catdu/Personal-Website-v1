@@ -75,8 +75,6 @@ a {
 
 .padding-leftright-6 {
 	padding: 0 7em;
-
-
 }
 
 @media screen and (max-width: 575px) {
@@ -100,7 +98,7 @@ a {
 
 @media screen and (max-width: 575px) {
 	#blurb-title {
-		font-size: 1.6em;
+		font-size: 1.5em;
 	}
 
 }
