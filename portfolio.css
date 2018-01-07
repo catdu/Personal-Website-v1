@@ -80,7 +80,6 @@ a{
 
 #back-container {
 	bottom: 1px;
-	max-width: 100%;
 }
 
 #content-filler {
@@ -105,7 +104,7 @@ a{
 }
 
 .white-strip {
-	width: 100%;
+	max-width: 100%;
 	background: #fff;
 	padding: 1.5em 0;
 	box-sizing: border-box;
