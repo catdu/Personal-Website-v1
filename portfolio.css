@@ -116,3 +116,11 @@ a{
 .banner .banner-body {
 	padding: 0;
 }
+
+ul {
+    padding-left: 0;
+}
+
+ol li, ul li {
+    padding-left: 0em;
+}
