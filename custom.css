@@ -3,8 +3,8 @@ a {
 }
 
 html {
-    /*If you had a black or close to black background*/
-    background-color: #E6E6ED;
+	/*If you had a black or close to black background*/
+	background-color: #E6E6ED;
 }
 
 #intro-line {
@@ -44,9 +44,9 @@ html {
 	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
 	font-size: 1.2em;
 	font-weight: 300;
-    color: #a7a7a7;
-    text-align: left;
-    padding-left: 0.7em;
+	color: #a7a7a7;
+	text-align: left;
+	padding-left: 0.7em;
 }
 
 .grey-bg {
@@ -55,8 +55,8 @@ html {
 
 .black-bg {
 	background: linear-gradient(to bottom right, #424244, #353537);
-    height: 85vh;
-    margin: 1em;
+	height: 85vh;
+	margin: 1em;
 }
 
 @media screen and (max-width: 768px) {
@@ -72,7 +72,7 @@ html {
 	display: flex;
 	flex-direction: column;
 	align-items: left;
-    padding-left: 2em;
+	padding-left: 2em;
 }
 
 .z-1 {
@@ -147,9 +147,9 @@ html {
 }
 
 ul {
-    padding-left: 0;
+	padding-left: 0;
 }
 
 ol li, ul li {
-    padding-left: 0em;
+	padding-left: 0em;
 }
